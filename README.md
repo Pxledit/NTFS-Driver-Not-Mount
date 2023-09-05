@@ -8,7 +8,7 @@ sudo pacman -S ntfs-3g
 
 open terminal and Create the following file as root: (editor vim/nano)
 ```
-sudo  vim /etc/polkit-1/rules.d/49-nopasswd_global.rules
+sudo  nvim /etc/polkit-1/rules.d/49-nopasswd_global.rules
 ```
 
 $paste these in that file
